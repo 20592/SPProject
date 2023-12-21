@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SynectiksDashboard/static/css/main.4fe38736.css",
+    "main.js": "/SynectiksDashboard/static/js/main.9ba03830.js",
+    "index.html": "/SynectiksDashboard/index.html",
+    "main.4fe38736.css.map": "/SynectiksDashboard/static/css/main.4fe38736.css.map",
+    "main.9ba03830.js.map": "/SynectiksDashboard/static/js/main.9ba03830.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fe38736.css",
+    "static/js/main.9ba03830.js"
+  ]
+}
