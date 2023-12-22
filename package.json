@@ -2,6 +2,7 @@
   "name": "react-tailwind-css-starter-pack",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://20592.github.io/ReactSynectiks",
   "dependencies": {
     "apexcharts": "^3.44.0",
     "date-fns": "^2.30.0",
@@ -19,15 +20,10 @@
     "recharts": "^2.10.3",
     "web-vitals": "^2.1.4"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git"
-  },
-  "author": "Pranay Gupta",
-  "bugs": {
-    "url": "https://github.com/thepranaygupta/react-tailwind-css-starter-pack/issues"
-  },
+  
   "scripts": {
+    "predeploy" :"npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject"
